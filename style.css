@@ -244,3 +244,82 @@ nav .menu a:hover {
     margin: 0;
 }
 
+.second-brain {
+padding: 80px 20px;
+}
+.second-brain-container {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    max-width: 1200px;
+}
+.second-brain-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-brain-img img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+.second-brain-content {
+    flex: 1;
+}
+
+.second-brain-tag {
+    font-size: 14px;
+    font-weight: 600;
+    color: #52a370;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+}
+
+.second-brain-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1a1a1a;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.second-brain-description {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.7;
+    margin-bottom: 32px;
+}
+.second-brain-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.second-brain-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #1a1a1a;
+}
+
+.second-brain-list li:last-child {
+    margin-bottom: 0;
+}
+
+.second-brain-list li i {
+    color: #52a370;
+    font-size: 20px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.second-brain-list li span {
+    line-height: 1.6;
+}
