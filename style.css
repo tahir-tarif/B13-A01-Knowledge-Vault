@@ -161,4 +161,86 @@ nav .menu a:hover {
 .btn2:hover {
     background-color: #45916a;
 }
+/* note section style starts */
+
+.notes {
+    padding: 80px 20px;
+    background-color: #ffffff;
+}
+
+.notes-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.notes-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.notes-title {
+    font-size: 48px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 16px;
+}
+
+.notes-subtitle {
+    font-size: 16px;
+    color: #666666;
+    line-height: 1.6;
+    margin: 0 auto;
+}
+
+
+.notes-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.note-card {
+    background-color: #f8f9fa;
+    padding: 40px 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+
+.note-icon {
+    width: 60px;
+    height: 60px;
+    background-color: #ef5350;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 24px;
+}
+
+.note-icon i {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.note-icon img {
+    width: 32px;
+    height: 32px;
+    filter: brightness(0) invert(1);
+}
+
+.note-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.note-description {
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.6;
+    margin: 0;
+}
 
